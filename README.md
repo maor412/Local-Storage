@@ -26,7 +26,6 @@ dependencies {
 To use Local-Storage, you can create an instance of the LocalStorage class, passing in a filename and a secret key. You can then use the various methods available to store and retrieve your data.
 
 Here is an example of how to use Local-Storage:
-###### StepProgress Constructor:
 ```java
   if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 
