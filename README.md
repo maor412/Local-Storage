@@ -1,10 +1,12 @@
 # Local-Storage
 
-A library for encripted shared preferences to save encripted data on a local device.
+Local-Storage is a library that allows you to securely save encrypted data on a local device using shared preferences.
 
 ## Setup
 
-Step 1. Add it in your root build.gradle at the end of repositories:
+To get started with Local-Storage, follow these simple steps:
+
+Step 1. Add the following code at the end of your root build.gradle file:
 ```
 allprojects {
     repositories {
@@ -12,7 +14,7 @@ allprojects {
     }
 }
 ```
-Step 2. Add the dependency:
+Step 2. Add the dependency to your app-level build.gradle file:
 
 ```
 dependencies {
@@ -21,7 +23,9 @@ dependencies {
 ```
 
 ## Usage
+To use Local-Storage, you can create an instance of the LocalStorage class, passing in a filename and a secret key. You can then use the various methods available to store and retrieve your data.
 
+Here is an example of how to use Local-Storage:
 ###### StepProgress Constructor:
 ```java
   if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
